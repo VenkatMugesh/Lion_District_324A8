@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    tools:context=".OtpActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:text="OTP"
+        android:fontFamily="@font/muli_black"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:text="VERIFICATION"
+        android:fontFamily="@font/muli_black"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num_text"
+        android:text="We have Send an OTP to 989787878 enter that to continue"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/muli_semibold_italic"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <com.chaos.view.PinView
+        android:id="@+id/pin_view"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:cursorVisible="true"
+        android:inputType="number"
+        android:itemBackground="#65EAEAEA"
+        app:cursorColor="@color/black"
+        app:hideLineWhenFilled="true"
+        app:itemCount="6"
+        app:itemHeight="50dp"
+        app:itemRadius="5dp"
+        app:itemWidth="50dp"
+        app:lineColor="@color/colorAccent"
+        app:lineWidth="1dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/muli_extrabold_italic"
+        android:id="@+id/proceed_button"
+        android:background="@color/colorPrimary"
+        android:elevation="8dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:text="PROCEED"
+        android:textColor="@color/white"
+        android:transitionName="transition_OTP_screen" />
+
+</LinearLayout>

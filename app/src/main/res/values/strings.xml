@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Leo District 324A8</string>
+
+    <string name="phone_number">Phone Number</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_add">AddActivity</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="admin_list">
+        <item>District Chairperson</item>
+        <item>District President</item>
+        <item>GLT Co-ordinator</item>
+    </string-array>
+
+    <string-array name="post_list">
+        <item></item>
+        <item>District Vice President</item>
+        <item>District Secretary</item>
+        <item>District Treasurer</item>
+        <item>GMT Co-ordinator</item>
+        <item>GST Co-ordinator</item>
+        <item>President</item>
+        <item>Vice President</item>
+        <item>Secretary</item>
+        <item>Treasurer</item>
+        <item>Member</item>
+    </string-array>
+    <string-array name="club_list">
+        <item></item>
+        <item>Serving Suriyans</item>
+        <item>Chennai Marina Continental</item>
+        <item>Chennai Marina Coastal</item>
+        <item>Aaditya</item>
+        <item>Madras Royapuram</item>
+        <item>Chennai Aavarampoo</item>
+        <item>Chennai Desire</item>
+    </string-array>
+</resources>

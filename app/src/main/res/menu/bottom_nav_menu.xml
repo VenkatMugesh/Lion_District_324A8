@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_people"
+        android:title="People"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        app:cnb_backgroundColor = "@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/bottom_activity"
+        android:title="Activities"
+        android:icon="@drawable/ic_baseline_local_activity_24"
+        app:cnb_backgroundColor = "@color/colorPrimary"/>
+
+    <item
+        android:id="@+id/bottom_about_us"
+        android:title="About Us"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:cnb_backgroundColor = "@color/colorPrimary"/>
+</menu>

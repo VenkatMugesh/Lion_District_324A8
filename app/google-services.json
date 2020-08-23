@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "91026366074",
+    "firebase_url": "https://lions-club-project.firebaseio.com",
+    "project_id": "lions-club-project",
+    "storage_bucket": "lions-club-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91026366074:android:1786db1e19319e7ae825c3",
+        "android_client_info": {
+          "package_name": "com.example.leodistrict324a8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91026366074-gfr41loc0tvu9ea1an3hvod1thpgf91j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leodistrict324a8",
+            "certificate_hash": "36fdbd4397ba215f9a43ef3cb7223c2dfa1aabd4"
+          }
+        },
+        {
+          "client_id": "91026366074-g0hdthopjahftba7tucus3n2ugf7uohb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwYepEDkYEfJuZ1Ze3F2_VB7x1lce_gzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91026366074-g0hdthopjahftba7tucus3n2ugf7uohb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
